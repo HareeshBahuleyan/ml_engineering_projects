@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "salary-classifier"
+version = "0.1.0"
+description = "ML Classifier to predict if salary is greater than a specific amount or not based on features of the person"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "salary_classifier"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+poetry = "^1.4.1"
+scikit-learn = "^1.2.2"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+flask = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

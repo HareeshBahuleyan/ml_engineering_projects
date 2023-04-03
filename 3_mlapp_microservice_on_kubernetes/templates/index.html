@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<form action="result" method="post">
+    <div class="formbuilder-number form-group field-age">
+        <label for="age" class="formbuilder-number-label">age<span class="formbuilder-required">*</span></label>
+        <input type="number" class="form-control" name="age" access="false" id="age" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-select form-group field-workclass">
+        <label for="workclass" class="formbuilder-select-label">workclass<span class="formbuilder-required">*</span></label>
+        <select class="form-control" name="workclass" id="workclass" required="required" aria-required="true">
+            <option value="Federal-gov" id="workclass-0">Federal-gov</option>
+            <option value="Private" selected="true" id="workclass-1">Private</option>
+            <option value="Self-emp-inc" id="workclass-2">Self-emp-inc</option>
+        </select>
+    </div>
+    <div class="formbuilder-select form-group field-education">
+        <label for="education" class="formbuilder-select-label">education<span class="formbuilder-required">*</span></label>
+        <select class="form-control" name="education" id="education" required="required" aria-required="true">
+            <option value="10th" id="education-0">10th</option>
+            <option value="Bachelors" selected="true" id="education-1">Bachelors</option>
+            <option value="Masters" id="education-2">Masters</option>
+            <option value="Doctorate" id="education-3">Doctorate</option>
+        </select>
+    </div>
+    <div class="formbuilder-select form-group field-marital_status">
+        <label for="marital_status" class="formbuilder-select-label">marital_status<span class="formbuilder-required">*</span></label>
+        <select class="form-control" name="marital_status" id="marital_status" required="required" aria-required="true">
+            <option value="Married-civ-spouse" selected="true" id="marital_status-0">Married-civ-spouse</option>
+            <option value="Never-married" id="marital_status-1">Never-married</option>
+            <option value="Divorced" id="marital_status-2">Divorced</option>
+            <option value="Separated" id="marital_status-3">Separated</option>
+        </select>
+    </div>
+    <div class="formbuilder-select form-group field-occupation">
+        <label for="occupation" class="formbuilder-select-label">occupation<span class="formbuilder-required">*</span></label>
+        <select class="form-control" name="occupation" id="occupation" required="required" aria-required="true">
+            <option value="Sales" selected="true" id="occupation-0">Sales</option>
+            <option value="Tech-support" id="occupation-1">Tech-support</option>
+            <option value="Prof-specialty" id="occupation-2">Prof-specialty</option>
+            <option value="Farming-fishing" id="occupation-3">Farming-fishing</option>
+        </select>
+    </div>
+    <div class="formbuilder-select form-group field-sex">
+        <label for="sex" class="formbuilder-select-label">sex<span class="formbuilder-required">*</span></label>
+        <select class="form-control" name="sex" id="sex" required="required" aria-required="true">
+            <option value="Male" selected="true" id="sex-0">Male</option>
+            <option value="Female" id="sex-1">Female</option>
+        </select>
+    </div>
+    <div class="formbuilder-number form-group field-capital_gain">
+        <label for="capital_gain" class="formbuilder-number-label">capital_gain<span class="formbuilder-required">*</span></label>
+        <input type="number" class="form-control" name="capital_gain" access="false" id="capital_gain" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-number form-group field-capital_loss">
+        <label for="capital_loss" class="formbuilder-number-label">capital_loss<span class="formbuilder-required">*</span></label>
+        <input type="number" class="form-control" name="capital_loss" access="false" id="capital_loss" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-number form-group field-hours_per_week">
+        <label for="hours_per_week" class="formbuilder-number-label">hours_per_week<span class="formbuilder-required">*</span></label>
+        <input type="number" class="form-control" name="hours_per_week" access="false" id="hours_per_week" required="required" aria-required="true">
+    </div>
+    <div class="formbuilder-select form-group field-native_country">
+        <label for="native_country" class="formbuilder-select-label">native_country<span class="formbuilder-required">*</span></label>
+        <select class="form-control" name="native_country" id="native_country" required="required" aria-required="true">
+            <option value="United-States" selected="true" id="native_country-0">United-States</option>
+            <option value="Canada" id="native_country-1">Canada</option>
+            <option value="Germany" id="native_country-2">Germany</option>
+            <option value="India" id="native_country-3">India</option>
+        </select>
+    </div>
+    <div class="formbuilder-button form-group field-button-submit">
+        <button type="submit">Submit</button>
+    </div>
+</form>
