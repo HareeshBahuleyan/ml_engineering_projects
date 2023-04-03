@@ -1,0 +1,9 @@
+*.pyc
+**/*.ipynb_checkpoints*
+.idea
+events.*
+*.ckpt.*
+**/*__pycache__*
+**/*.DS_Store*
+.vscode/
+data/*

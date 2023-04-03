@@ -1,2 +1,2 @@
-# ml_engineering_projects
-Projects to learn ML engineering technologies
+# ML Engineering
+Projects to learn ML engineering technologies and ML Ops
